@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ToDoListView: View {
+struct TodayListView: View {
     var body: some View {
         NavigationView {
             VStack {
@@ -28,8 +28,8 @@ struct ToDoListView: View {
     }
 }
 
-struct ToDoListView_Previews: PreviewProvider {
+struct TodayListView_Previews: PreviewProvider {
     static var previews: some View {
-        ToDoListView()
+        TodayListView()
     }
 }

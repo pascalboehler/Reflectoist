@@ -17,7 +17,7 @@
 		BBE4C84E2971A83E00D0A85B /* ReflectoistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE4C84D2971A83E00D0A85B /* ReflectoistTests.swift */; };
 		BBE4C8582971A83E00D0A85B /* ReflectoistUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE4C8572971A83E00D0A85B /* ReflectoistUITests.swift */; };
 		BBE4C85A2971A83E00D0A85B /* ReflectoistUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE4C8592971A83E00D0A85B /* ReflectoistUITestsLaunchTests.swift */; };
-		BBE4C8682971AC1200D0A85B /* ToDoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE4C8672971AC1200D0A85B /* ToDoListView.swift */; };
+		BBE4C8682971AC1200D0A85B /* TodayListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE4C8672971AC1200D0A85B /* TodayListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +54,7 @@
 		BBE4C8532971A83E00D0A85B /* ReflectoistUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReflectoistUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBE4C8572971A83E00D0A85B /* ReflectoistUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReflectoistUITests.swift; sourceTree = "<group>"; };
 		BBE4C8592971A83E00D0A85B /* ReflectoistUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReflectoistUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		BBE4C8672971AC1200D0A85B /* ToDoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListView.swift; sourceTree = "<group>"; };
+		BBE4C8672971AC1200D0A85B /* TodayListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,7 +163,7 @@
 		BBE4C8662971ABEA00D0A85B /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				BBE4C8672971AC1200D0A85B /* ToDoListView.swift */,
+				BBE4C8672971AC1200D0A85B /* TodayListView.swift */,
 				BBE2B4AA2971B38300C7402A /* PreviousToDoView.swift */,
 				BBE2B4AC2971B40900C7402A /* SettingsView.swift */,
 			);
@@ -328,7 +328,7 @@
 			files = (
 				BBE2B4AD2971B40900C7402A /* SettingsView.swift in Sources */,
 				BBE4C83E2971A83A00D0A85B /* ContentView.swift in Sources */,
-				BBE4C8682971AC1200D0A85B /* ToDoListView.swift in Sources */,
+				BBE4C8682971AC1200D0A85B /* TodayListView.swift in Sources */,
 				BBE4C83C2971A83A00D0A85B /* ReflectoistApp.swift in Sources */,
 				BBE2B4AB2971B38300C7402A /* PreviousToDoView.swift in Sources */,
 			);
