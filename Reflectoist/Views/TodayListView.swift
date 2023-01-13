@@ -11,10 +11,14 @@ struct TodayListView: View {
     var body: some View {
         NavigationView {
             VStack {
-                Text("Your Achievements:")
                 List {
-                    
-                    Text("Item1")
+                    ToDoListItem(todoItem: ToDoItem())
+                    ToDoListItem(todoItem: ToDoItem())
+                    ToDoListItem(todoItem: ToDoItem())
+                    ToDoListItem(todoItem: ToDoItem())
+                    ToDoListItem(todoItem: ToDoItem())
+                    ToDoListItem(todoItem: ToDoItem())
+                    ToDoListItem(todoItem: ToDoItem())
                 }
                 
             }
