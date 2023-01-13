@@ -10,7 +10,7 @@ import SwiftUI
 struct MainTabView: View {
     var body: some View {
         TabView {
-            TodayListView()
+            TodayListView(todoItemList: [ToDoItem()])
                 .tabItem {
                     Image(systemName: "house")
                     Text("Today")

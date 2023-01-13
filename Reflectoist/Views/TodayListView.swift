@@ -8,32 +8,31 @@
 import SwiftUI
 
 struct TodayListView: View {
+    var todoItemList: [ToDoItem]
+    
     var body: some View {
         NavigationView {
             VStack {
                 List {
-                    ToDoListItem(todoItem: ToDoItem())
-                    ToDoListItem(todoItem: ToDoItem())
-                    ToDoListItem(todoItem: ToDoItem())
-                    ToDoListItem(todoItem: ToDoItem())
-                    ToDoListItem(todoItem: ToDoItem())
-                    ToDoListItem(todoItem: ToDoItem())
-                    ToDoListItem(todoItem: ToDoItem())
+                    ForEach(todoItemList) { item in
+                        ToDoListItem(todoItem: item)
+                    }
                 }
                 
             }
             .navigationBarTitle("Today")
-            .navigationBarItems(trailing: Button(action: {
-                print("Hi")
-            }, label: {
-                Image(systemName: "plus")
-            }))
+            .navigationBarItems(trailing: NavigationLink(destination: {
+                    AddToDoItemView()
+                }, label: {
+                    Image(systemName: "plus")
+                })
+            )
         }
     }
 }
 
 struct TodayListView_Previews: PreviewProvider {
     static var previews: some View {
-        TodayListView()
+        TodayListView(todoItemList: [ToDoItem(), ToDoItem(), ToDoItem()])
     }
 }
