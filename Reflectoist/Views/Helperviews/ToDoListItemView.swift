@@ -7,11 +7,12 @@
 
 import SwiftUI
 
-struct ToDoListItem: View {
+struct ToDoListItemView: View {
     var todoItem: ToDoItem
     
     var body: some View {
         HStack {
+            Image(systemName: "checkmark.circle")
             Text(todoItem.name)
             Spacer()
             Text(todoItem.dateCompleted.formatted())
@@ -21,8 +22,8 @@ struct ToDoListItem: View {
     }
 }
 
-struct ToDoListItem_Previews: PreviewProvider {
+struct ToDoListItemView_Previews: PreviewProvider {
     static var previews: some View {
-        ToDoListItem(todoItem: ToDoItem())
+        ToDoListItemView(todoItem: ToDoItem())
     }
 }

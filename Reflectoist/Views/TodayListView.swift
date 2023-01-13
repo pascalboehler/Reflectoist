@@ -15,10 +15,9 @@ struct TodayListView: View {
             VStack {
                 List {
                     ForEach(todoItemList) { item in
-                        ToDoListItem(todoItem: item)
+                        ToDoListItemView(todoItem: item)
                     }
                 }
-                
             }
             .navigationBarTitle("Today")
             .navigationBarItems(trailing: NavigationLink(destination: {
@@ -33,6 +32,6 @@ struct TodayListView: View {
 
 struct TodayListView_Previews: PreviewProvider {
     static var previews: some View {
-        TodayListView(todoItemList: [ToDoItem(), ToDoItem(), ToDoItem()])
+        TodayListView(todoItemList: MockDataCreator().todoMockData)
     }
 }

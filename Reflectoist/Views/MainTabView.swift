@@ -8,9 +8,12 @@
 import SwiftUI
 
 struct MainTabView: View {
+
+    var toDoList: [ToDoItem] = ToDoItemHandler().readDataToArray()
+    
     var body: some View {
         TabView {
-            TodayListView(todoItemList: [ToDoItem()])
+            TodayListView(todoItemList: toDoList)
                 .tabItem {
                     Image(systemName: "house")
                     Text("Today")
