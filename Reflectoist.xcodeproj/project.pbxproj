@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62581DB2E44BF96F9A7A43B6 /* Pods_Reflectoist.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D415DAC89AEFAFBEB2602AB /* Pods_Reflectoist.framework */; };
+		BBE2B4AB2971B38300C7402A /* PreviousToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE2B4AA2971B38300C7402A /* PreviousToDoView.swift */; };
+		BBE2B4AD2971B40900C7402A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE2B4AC2971B40900C7402A /* SettingsView.swift */; };
 		BBE4C83C2971A83A00D0A85B /* ReflectoistApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE4C83B2971A83A00D0A85B /* ReflectoistApp.swift */; };
 		BBE4C83E2971A83A00D0A85B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE4C83D2971A83A00D0A85B /* ContentView.swift */; };
 		BBE4C8402971A83D00D0A85B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBE4C83F2971A83D00D0A85B /* Assets.xcassets */; };
@@ -14,6 +17,7 @@
 		BBE4C84E2971A83E00D0A85B /* ReflectoistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE4C84D2971A83E00D0A85B /* ReflectoistTests.swift */; };
 		BBE4C8582971A83E00D0A85B /* ReflectoistUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE4C8572971A83E00D0A85B /* ReflectoistUITests.swift */; };
 		BBE4C85A2971A83E00D0A85B /* ReflectoistUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE4C8592971A83E00D0A85B /* ReflectoistUITestsLaunchTests.swift */; };
+		BBE4C8682971AC1200D0A85B /* ToDoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE4C8672971AC1200D0A85B /* ToDoListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D415DAC89AEFAFBEB2602AB /* Pods_Reflectoist.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Reflectoist.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62DAEAC501292949473D5D14 /* Pods-Reflectoist.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reflectoist.release.xcconfig"; path = "Target Support Files/Pods-Reflectoist/Pods-Reflectoist.release.xcconfig"; sourceTree = "<group>"; };
+		93EAC52CE64BA64AE6C3C79E /* Pods-Reflectoist.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reflectoist.debug.xcconfig"; path = "Target Support Files/Pods-Reflectoist/Pods-Reflectoist.debug.xcconfig"; sourceTree = "<group>"; };
+		BBE2B4AA2971B38300C7402A /* PreviousToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviousToDoView.swift; sourceTree = "<group>"; };
+		BBE2B4AC2971B40900C7402A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		BBE4C8382971A83A00D0A85B /* Reflectoist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reflectoist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBE4C83B2971A83A00D0A85B /* ReflectoistApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReflectoistApp.swift; sourceTree = "<group>"; };
 		BBE4C83D2971A83A00D0A85B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +54,7 @@
 		BBE4C8532971A83E00D0A85B /* ReflectoistUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReflectoistUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBE4C8572971A83E00D0A85B /* ReflectoistUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReflectoistUITests.swift; sourceTree = "<group>"; };
 		BBE4C8592971A83E00D0A85B /* ReflectoistUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReflectoistUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BBE4C8672971AC1200D0A85B /* ToDoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62581DB2E44BF96F9A7A43B6 /* Pods_Reflectoist.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +83,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02F15C43EDA7D5C16D25E5F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D415DAC89AEFAFBEB2602AB /* Pods_Reflectoist.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7345C5C7D68A1CD8F6B4E4FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				93EAC52CE64BA64AE6C3C79E /* Pods-Reflectoist.debug.xcconfig */,
+				62DAEAC501292949473D5D14 /* Pods-Reflectoist.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		BBE4C82F2971A83A00D0A85B = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +107,8 @@
 				BBE4C84C2971A83E00D0A85B /* ReflectoistTests */,
 				BBE4C8562971A83E00D0A85B /* ReflectoistUITests */,
 				BBE4C8392971A83A00D0A85B /* Products */,
+				7345C5C7D68A1CD8F6B4E4FB /* Pods */,
+				02F15C43EDA7D5C16D25E5F1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,6 +125,7 @@
 		BBE4C83A2971A83A00D0A85B /* Reflectoist */ = {
 			isa = PBXGroup;
 			children = (
+				BBE4C8662971ABEA00D0A85B /* Views */,
 				BBE4C83B2971A83A00D0A85B /* ReflectoistApp.swift */,
 				BBE4C83D2971A83A00D0A85B /* ContentView.swift */,
 				BBE4C83F2971A83D00D0A85B /* Assets.xcassets */,
@@ -129,6 +160,16 @@
 			path = ReflectoistUITests;
 			sourceTree = "<group>";
 		};
+		BBE4C8662971ABEA00D0A85B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BBE4C8672971AC1200D0A85B /* ToDoListView.swift */,
+				BBE2B4AA2971B38300C7402A /* PreviousToDoView.swift */,
+				BBE2B4AC2971B40900C7402A /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -136,6 +177,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BBE4C85D2971A83E00D0A85B /* Build configuration list for PBXNativeTarget "Reflectoist" */;
 			buildPhases = (
+				23708969F59F0ED9CE5C2199 /* [CP] Check Pods Manifest.lock */,
 				BBE4C8342971A83A00D0A85B /* Sources */,
 				BBE4C8352971A83A00D0A85B /* Frameworks */,
 				BBE4C8362971A83A00D0A85B /* Resources */,
@@ -254,13 +296,41 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		23708969F59F0ED9CE5C2199 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Reflectoist-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BBE4C8342971A83A00D0A85B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBE2B4AD2971B40900C7402A /* SettingsView.swift in Sources */,
 				BBE4C83E2971A83A00D0A85B /* ContentView.swift in Sources */,
+				BBE4C8682971AC1200D0A85B /* ToDoListView.swift in Sources */,
 				BBE4C83C2971A83A00D0A85B /* ReflectoistApp.swift in Sources */,
+				BBE2B4AB2971B38300C7402A /* PreviousToDoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +478,7 @@
 		};
 		BBE4C85E2971A83E00D0A85B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93EAC52CE64BA64AE6C3C79E /* Pods-Reflectoist.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -446,6 +517,7 @@
 		};
 		BBE4C85F2971A83E00D0A85B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62DAEAC501292949473D5D14 /* Pods-Reflectoist.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

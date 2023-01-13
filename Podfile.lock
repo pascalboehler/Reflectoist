@@ -1,0 +1,18 @@
+PODS:
+  - couchbase-lite-ios (1.4.4):
+    - couchbase-lite-ios/SQLite (= 1.4.4)
+  - couchbase-lite-ios/SQLite (1.4.4)
+
+DEPENDENCIES:
+  - couchbase-lite-ios
+
+SPEC REPOS:
+  trunk:
+    - couchbase-lite-ios
+
+SPEC CHECKSUMS:
+  couchbase-lite-ios: 6b586fca2c8a59c85e31df89a2528c92c40fc4dc
+
+PODFILE CHECKSUM: 0ce1881a1158cbabea2116436653977e9cc12af8
+
+COCOAPODS: 1.11.3

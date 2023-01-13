@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		B416EAF799B3E43050D619BC954F3C3D /* couchbase-lite-ios */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B2A3B48003E7D205BDF486287D5CB897 /* Build configuration list for PBXAggregateTarget "couchbase-lite-ios" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = "couchbase-lite-ios";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		2C7CBF730A7BEC72F71F363F1BF76011 /* Pods-Reflectoist-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 97B4C97BB8AD47A157E9D9AD6AAC132C /* Pods-Reflectoist-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58B0694A83A17F4CD2F31517C713C49E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		CB13495A9325C939435BB646983910D2 /* Pods-Reflectoist-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BEDF627D5F05B9F63A38D2B2479BB031 /* Pods-Reflectoist-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B5D4D0C17C1B7462555E4526A89386DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B416EAF799B3E43050D619BC954F3C3D;
+			remoteInfo = "couchbase-lite-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19F6760BB1E0DB223642D500F100F168 /* CBLDocument.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CBLDocument.h; path = CouchbaseLite.framework/Headers/CBLDocument.h; sourceTree = "<group>"; };
+		1B0D88A0F27FD77DBD74540E99B41942 /* couchbase-lite-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "couchbase-lite-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		1E27FEDC5498D2FBF700A580795C938D /* Pods-Reflectoist-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Reflectoist-Info.plist"; sourceTree = "<group>"; };
+		2DDBB7F0A2D49363FB86492DD2D3A0E9 /* CouchbaseLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CouchbaseLite.framework; sourceTree = "<group>"; };
+		36D4F72471E1F5724925BA02FF6E5499 /* CBLView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CBLView.h; path = CouchbaseLite.framework/Headers/CBLView.h; sourceTree = "<group>"; };
+		45F1D1BED5BDD1E4F9B4B36F207E74A4 /* CBLAuthenticator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CBLAuthenticator.h; path = CouchbaseLite.framework/Headers/CBLAuthenticator.h; sourceTree = "<group>"; };
+		54EE65F6C15FDE8F2EB6B6EE9A63BFCF /* Pods-Reflectoist-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Reflectoist-acknowledgements.plist"; sourceTree = "<group>"; };
+		5CF46E5B1504FC0EF1CA5128886731CC /* CBLQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CBLQuery.h; path = CouchbaseLite.framework/Headers/CBLQuery.h; sourceTree = "<group>"; };
+		5D62FA5AAB8B3C0B812B50A363F15F75 /* CBLBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CBLBase.h; path = CouchbaseLite.framework/Headers/CBLBase.h; sourceTree = "<group>"; };
+		62EB0E96726742B67168908769CBD2AA /* CBLAttachment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CBLAttachment.h; path = CouchbaseLite.framework/Headers/CBLAttachment.h; sourceTree = "<group>"; };
+		65A03CBCB3471C6B2827EAE5972E4390 /* CouchbaseLiteListener.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CouchbaseLiteListener.h; path = CouchbaseLiteListener.framework/Headers/CouchbaseLiteListener.h; sourceTree = "<group>"; };
+		683C60395DE1FC27D39A5D1EA05992E8 /* CBLDynamicObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CBLDynamicObject.h; path = CouchbaseLite.framework/Headers/CBLDynamicObject.h; sourceTree = "<group>"; };
+		6F4C00ED1CB258A4735A3A086655F7AC /* CBLUITableSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CBLUITableSource.h; path = CouchbaseLite.framework/Headers/CBLUITableSource.h; sourceTree = "<group>"; };
+		72EA1E2D0568D7772B20A00A5AF0CF11 /* libCBLJSViewCompiler.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCBLJSViewCompiler.a; path = Extras/libCBLJSViewCompiler.a; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		740E059097A812794CBD477873059F9D /* CBLJSON.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CBLJSON.h; path = CouchbaseLite.framework/Headers/CBLJSON.h; sourceTree = "<group>"; };
+		8247FF5D42AD84A40AA78DC726FBF697 /* Pods-Reflectoist-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Reflectoist-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8505E34072F5A7981F75F751472B8A02 /* CBLModelFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CBLModelFactory.h; path = CouchbaseLite.framework/Headers/CBLModelFactory.h; sourceTree = "<group>"; };
+		89625A9A60ABD93B7D2FFD07FFBB903C /* Pods-Reflectoist.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Reflectoist.release.xcconfig"; sourceTree = "<group>"; };
+		8F7F028E365E4616593B00875548E902 /* Pods-Reflectoist.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Reflectoist.debug.xcconfig"; sourceTree = "<group>"; };
+		92C56B22F51471755C15288B491DE19A /* Pods-Reflectoist.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Reflectoist.modulemap"; sourceTree = "<group>"; };
+		97B4C97BB8AD47A157E9D9AD6AAC132C /* Pods-Reflectoist-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Reflectoist-umbrella.h"; sourceTree = "<group>"; };
+		97E335B180A9096C16B6609915EC404B /* CBLQueryBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CBLQueryBuilder.h; path = CouchbaseLite.framework/Headers/CBLQueryBuilder.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A54FF4EA59E9207D4EF476139CA29449 /* CBLManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CBLManager.h; path = CouchbaseLite.framework/Headers/CBLManager.h; sourceTree = "<group>"; };
+		ABD8C34E901301A1959B7289E578341E /* CBLListener.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CBLListener.h; path = CouchbaseLiteListener.framework/Headers/CBLListener.h; sourceTree = "<group>"; };
+		BEDF627D5F05B9F63A38D2B2479BB031 /* Pods-Reflectoist-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Reflectoist-dummy.m"; sourceTree = "<group>"; };
+		C2E2A852169C3C81C31450E43919A780 /* CouchbaseLiteListener.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CouchbaseLiteListener.framework; sourceTree = "<group>"; };
+		C5EA84A43DE6719DB44A20A33DBB23F6 /* CBLQuery+Geo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CBLQuery+Geo.h"; path = "CouchbaseLite.framework/Headers/CBLQuery+Geo.h"; sourceTree = "<group>"; };
+		CA9E2D66084E9C586CE0AD5F3086AB49 /* CBLDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CBLDatabase.h; path = CouchbaseLite.framework/Headers/CBLDatabase.h; sourceTree = "<group>"; };
+		CCBDAD1860867B29383A676CE142B85A /* Pods-Reflectoist */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Reflectoist"; path = Pods_Reflectoist.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF86EC75A8F86BAEF412FF444D4D8CFC /* CBLRevision.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CBLRevision.h; path = CouchbaseLite.framework/Headers/CBLRevision.h; sourceTree = "<group>"; };
+		CFB4445BBCD0308A1E42B264D15046F5 /* CBLModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CBLModel.h; path = CouchbaseLite.framework/Headers/CBLModel.h; sourceTree = "<group>"; };
+		CFE64FC0D8F06F63B1898FA4DA71A1BA /* couchbase-lite-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "couchbase-lite-ios.release.xcconfig"; sourceTree = "<group>"; };
+		D0F51CE54D1DB66E904AB4B0E8F2B97D /* CBLQuery+FullTextSearch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CBLQuery+FullTextSearch.h"; path = "CouchbaseLite.framework/Headers/CBLQuery+FullTextSearch.h"; sourceTree = "<group>"; };
+		D4E6E5E61162D034D59DA7EAA95EEEB1 /* CBLGeometry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CBLGeometry.h; path = CouchbaseLite.framework/Headers/CBLGeometry.h; sourceTree = "<group>"; };
+		DB68143AD45FBAC21CD73E302C19CD9C /* CBLAuthenticator+OpenID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CBLAuthenticator+OpenID.h"; path = "CouchbaseLite.framework/Headers/CBLAuthenticator+OpenID.h"; sourceTree = "<group>"; };
+		DBE5CC8921EAFE7FE83935A97E730856 /* CBLReplication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CBLReplication.h; path = CouchbaseLite.framework/Headers/CBLReplication.h; sourceTree = "<group>"; };
+		F4B1779D7698F4042ED245756F475480 /* CBLRegisterJSViewCompiler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CBLRegisterJSViewCompiler.h; path = Extras/CBLRegisterJSViewCompiler.h; sourceTree = "<group>"; };
+		FB10390E175C0100E0F973A24FF551DB /* CouchbaseLite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CouchbaseLite.h; path = CouchbaseLite.framework/Headers/CouchbaseLite.h; sourceTree = "<group>"; };
+		FC91816C2E8EFAC689175373303E1F4E /* CBLDatabaseChange.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CBLDatabaseChange.h; path = CouchbaseLite.framework/Headers/CBLDatabaseChange.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		014D02C790337C8A17E768157A9D6AB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58B0694A83A17F4CD2F31517C713C49E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23E5D7F37838C3491F146263445C6957 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				94FBF337443BEDB1B462035BEFC34C2B /* Pods-Reflectoist */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		479FF07903B7D5A25D7F808B0FD4392B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCBDAD1860867B29383A676CE142B85A /* Pods-Reflectoist */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5C7A5078640BDDFD72910E44EA614390 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DDBB7F0A2D49363FB86492DD2D3A0E9 /* CouchbaseLite.framework */,
+				C2E2A852169C3C81C31450E43919A780 /* CouchbaseLiteListener.framework */,
+				72EA1E2D0568D7772B20A00A5AF0CF11 /* libCBLJSViewCompiler.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82AE0D9D1CFB4CD88A48ACD83B11CF22 /* SQLite */ = {
+			isa = PBXGroup;
+			children = (
+				62EB0E96726742B67168908769CBD2AA /* CBLAttachment.h */,
+				45F1D1BED5BDD1E4F9B4B36F207E74A4 /* CBLAuthenticator.h */,
+				DB68143AD45FBAC21CD73E302C19CD9C /* CBLAuthenticator+OpenID.h */,
+				5D62FA5AAB8B3C0B812B50A363F15F75 /* CBLBase.h */,
+				CA9E2D66084E9C586CE0AD5F3086AB49 /* CBLDatabase.h */,
+				FC91816C2E8EFAC689175373303E1F4E /* CBLDatabaseChange.h */,
+				19F6760BB1E0DB223642D500F100F168 /* CBLDocument.h */,
+				683C60395DE1FC27D39A5D1EA05992E8 /* CBLDynamicObject.h */,
+				D4E6E5E61162D034D59DA7EAA95EEEB1 /* CBLGeometry.h */,
+				740E059097A812794CBD477873059F9D /* CBLJSON.h */,
+				ABD8C34E901301A1959B7289E578341E /* CBLListener.h */,
+				A54FF4EA59E9207D4EF476139CA29449 /* CBLManager.h */,
+				CFB4445BBCD0308A1E42B264D15046F5 /* CBLModel.h */,
+				8505E34072F5A7981F75F751472B8A02 /* CBLModelFactory.h */,
+				5CF46E5B1504FC0EF1CA5128886731CC /* CBLQuery.h */,
+				D0F51CE54D1DB66E904AB4B0E8F2B97D /* CBLQuery+FullTextSearch.h */,
+				C5EA84A43DE6719DB44A20A33DBB23F6 /* CBLQuery+Geo.h */,
+				97E335B180A9096C16B6609915EC404B /* CBLQueryBuilder.h */,
+				F4B1779D7698F4042ED245756F475480 /* CBLRegisterJSViewCompiler.h */,
+				DBE5CC8921EAFE7FE83935A97E730856 /* CBLReplication.h */,
+				CF86EC75A8F86BAEF412FF444D4D8CFC /* CBLRevision.h */,
+				6F4C00ED1CB258A4735A3A086655F7AC /* CBLUITableSource.h */,
+				36D4F72471E1F5724925BA02FF6E5499 /* CBLView.h */,
+				FB10390E175C0100E0F973A24FF551DB /* CouchbaseLite.h */,
+				65A03CBCB3471C6B2827EAE5972E4390 /* CouchbaseLiteListener.h */,
+				5C7A5078640BDDFD72910E44EA614390 /* Frameworks */,
+			);
+			name = SQLite;
+			sourceTree = "<group>";
+		};
+		8A459D3A333D6FF48CAB64E47C05B9FF /* couchbase-lite-ios */ = {
+			isa = PBXGroup;
+			children = (
+				82AE0D9D1CFB4CD88A48ACD83B11CF22 /* SQLite */,
+				B0C23D38DC8F2DC813329AAEE53DE248 /* Support Files */,
+			);
+			name = "couchbase-lite-ios";
+			path = "couchbase-lite-ios";
+			sourceTree = "<group>";
+		};
+		94FBF337443BEDB1B462035BEFC34C2B /* Pods-Reflectoist */ = {
+			isa = PBXGroup;
+			children = (
+				92C56B22F51471755C15288B491DE19A /* Pods-Reflectoist.modulemap */,
+				8247FF5D42AD84A40AA78DC726FBF697 /* Pods-Reflectoist-acknowledgements.markdown */,
+				54EE65F6C15FDE8F2EB6B6EE9A63BFCF /* Pods-Reflectoist-acknowledgements.plist */,
+				BEDF627D5F05B9F63A38D2B2479BB031 /* Pods-Reflectoist-dummy.m */,
+				1E27FEDC5498D2FBF700A580795C938D /* Pods-Reflectoist-Info.plist */,
+				97B4C97BB8AD47A157E9D9AD6AAC132C /* Pods-Reflectoist-umbrella.h */,
+				8F7F028E365E4616593B00875548E902 /* Pods-Reflectoist.debug.xcconfig */,
+				89625A9A60ABD93B7D2FFD07FFBB903C /* Pods-Reflectoist.release.xcconfig */,
+			);
+			name = "Pods-Reflectoist";
+			path = "Target Support Files/Pods-Reflectoist";
+			sourceTree = "<group>";
+		};
+		B0C23D38DC8F2DC813329AAEE53DE248 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B0D88A0F27FD77DBD74540E99B41942 /* couchbase-lite-ios.debug.xcconfig */,
+				CFE64FC0D8F06F63B1898FA4DA71A1BA /* couchbase-lite-ios.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/couchbase-lite-ios";
+			sourceTree = "<group>";
+		};
+		C46B44ADCD1E4B16F6EE3C1AD78025E9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A459D3A333D6FF48CAB64E47C05B9FF /* couchbase-lite-ios */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				C46B44ADCD1E4B16F6EE3C1AD78025E9 /* Pods */,
+				479FF07903B7D5A25D7F808B0FD4392B /* Products */,
+				23E5D7F37838C3491F146263445C6957 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		64256995628733398D1EE8846B77D15D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C7CBF730A7BEC72F71F363F1BF76011 /* Pods-Reflectoist-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		85F0CC87D75AA772C831262270033108 /* Pods-Reflectoist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13D943C42E68D379578BF09EA132B58F /* Build configuration list for PBXNativeTarget "Pods-Reflectoist" */;
+			buildPhases = (
+				64256995628733398D1EE8846B77D15D /* Headers */,
+				1A7DA3D16CAF1F52CAA40DC8900C70BA /* Sources */,
+				014D02C790337C8A17E768157A9D6AB1 /* Frameworks */,
+				1683E68EC867541CDB4562E33197336D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E68DF2C12C6671979C7085DF842C489 /* PBXTargetDependency */,
+			);
+			name = "Pods-Reflectoist";
+			productName = Pods_Reflectoist;
+			productReference = CCBDAD1860867B29383A676CE142B85A /* Pods-Reflectoist */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 479FF07903B7D5A25D7F808B0FD4392B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B416EAF799B3E43050D619BC954F3C3D /* couchbase-lite-ios */,
+				85F0CC87D75AA772C831262270033108 /* Pods-Reflectoist */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1683E68EC867541CDB4562E33197336D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A7DA3D16CAF1F52CAA40DC8900C70BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB13495A9325C939435BB646983910D2 /* Pods-Reflectoist-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E68DF2C12C6671979C7085DF842C489 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "couchbase-lite-ios";
+			target = B416EAF799B3E43050D619BC954F3C3D /* couchbase-lite-ios */;
+			targetProxy = B5D4D0C17C1B7462555E4526A89386DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		300E74DFCE2DBEF9F6D887668DB28C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B0D88A0F27FD77DBD74540E99B41942 /* couchbase-lite-ios.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		31F6D3FE50D94B502011BD1E3710A2B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFE64FC0D8F06F63B1898FA4DA71A1BA /* couchbase-lite-ios.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B52F4ADAD1BD817017FE941BD7B6EEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F7F028E365E4616593B00875548E902 /* Pods-Reflectoist.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Reflectoist/Pods-Reflectoist-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Reflectoist/Pods-Reflectoist.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8F3D739E33BFCE5779094AA7BCE1D4C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89625A9A60ABD93B7D2FFD07FFBB903C /* Pods-Reflectoist.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Reflectoist/Pods-Reflectoist-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Reflectoist/Pods-Reflectoist.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9553C89E183877A5CB2F3C6801BEC129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13D943C42E68D379578BF09EA132B58F /* Build configuration list for PBXNativeTarget "Pods-Reflectoist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B52F4ADAD1BD817017FE941BD7B6EEC /* Debug */,
+				8F3D739E33BFCE5779094AA7BCE1D4C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */,
+				9553C89E183877A5CB2F3C6801BEC129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2A3B48003E7D205BDF486287D5CB897 /* Build configuration list for PBXAggregateTarget "couchbase-lite-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				300E74DFCE2DBEF9F6D887668DB28C3B /* Debug */,
+				31F6D3FE50D94B502011BD1E3710A2B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
