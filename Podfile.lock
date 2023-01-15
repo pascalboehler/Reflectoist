@@ -1,18 +1,16 @@
 PODS:
-  - couchbase-lite-ios (1.4.4):
-    - couchbase-lite-ios/SQLite (= 1.4.4)
-  - couchbase-lite-ios/SQLite (1.4.4)
+  - CouchbaseLite-Swift (3.0.2)
 
 DEPENDENCIES:
-  - couchbase-lite-ios
+  - CouchbaseLite-Swift (= 3.0.2)
 
 SPEC REPOS:
   trunk:
-    - couchbase-lite-ios
+    - CouchbaseLite-Swift
 
 SPEC CHECKSUMS:
-  couchbase-lite-ios: 6b586fca2c8a59c85e31df89a2528c92c40fc4dc
+  CouchbaseLite-Swift: c95a2e96c3387f6f9a5778bc2418f80de1454ec3
 
-PODFILE CHECKSUM: 0ce1881a1158cbabea2116436653977e9cc12af8
+PODFILE CHECKSUM: 4c8b717f85072ca06803493418fda753f1b777f5
 
 COCOAPODS: 1.11.3

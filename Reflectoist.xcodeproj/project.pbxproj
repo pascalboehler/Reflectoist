@@ -16,6 +16,7 @@
 		BBE2B4B72971CA4F00C7402A /* AddToDoItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE2B4B62971CA4F00C7402A /* AddToDoItemView.swift */; };
 		BBE2B4BC2971D10D00C7402A /* MockDataCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE2B4BB2971D10D00C7402A /* MockDataCreator.swift */; };
 		BBE2B4BE2971D3A900C7402A /* ToDoItemHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE2B4BD2971D3A900C7402A /* ToDoItemHandler.swift */; };
+		BBE2B4C029745ACB00C7402A /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE2B4BF29745ACB00C7402A /* DatabaseManager.swift */; };
 		BBE4C83C2971A83A00D0A85B /* ReflectoistApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE4C83B2971A83A00D0A85B /* ReflectoistApp.swift */; };
 		BBE4C83E2971A83A00D0A85B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE4C83D2971A83A00D0A85B /* ContentView.swift */; };
 		BBE4C8402971A83D00D0A85B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBE4C83F2971A83D00D0A85B /* Assets.xcassets */; };
@@ -55,6 +56,7 @@
 		BBE2B4B62971CA4F00C7402A /* AddToDoItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToDoItemView.swift; sourceTree = "<group>"; };
 		BBE2B4BB2971D10D00C7402A /* MockDataCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockDataCreator.swift; sourceTree = "<group>"; };
 		BBE2B4BD2971D3A900C7402A /* ToDoItemHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItemHandler.swift; sourceTree = "<group>"; };
+		BBE2B4BF29745ACB00C7402A /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 		BBE4C8382971A83A00D0A85B /* Reflectoist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reflectoist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBE4C83B2971A83A00D0A85B /* ReflectoistApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReflectoistApp.swift; sourceTree = "<group>"; };
 		BBE4C83D2971A83A00D0A85B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 			children = (
 				BBE2B4BB2971D10D00C7402A /* MockDataCreator.swift */,
 				BBE2B4BD2971D3A900C7402A /* ToDoItemHandler.swift */,
+				BBE2B4BF29745ACB00C7402A /* DatabaseManager.swift */,
 			);
 			path = Datahandler;
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 				BBE4C8342971A83A00D0A85B /* Sources */,
 				BBE4C8352971A83A00D0A85B /* Frameworks */,
 				BBE4C8362971A83A00D0A85B /* Resources */,
+				6171DE704E7A00D32E8EA804 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -369,6 +373,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		6171DE704E7A00D32E8EA804 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Reflectoist/Pods-Reflectoist-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Reflectoist/Pods-Reflectoist-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Reflectoist/Pods-Reflectoist-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -384,6 +405,7 @@
 				BBE2B4B22971B8D600C7402A /* MainTabView.swift in Sources */,
 				BBE4C83C2971A83A00D0A85B /* ReflectoistApp.swift in Sources */,
 				BBE2B4B52971BA0400C7402A /* ToDoItem.swift in Sources */,
+				BBE2B4C029745ACB00C7402A /* DatabaseManager.swift in Sources */,
 				BBE2B4BE2971D3A900C7402A /* ToDoItemHandler.swift in Sources */,
 				BBE2B4BC2971D10D00C7402A /* MockDataCreator.swift in Sources */,
 				BBE2B4AB2971B38300C7402A /* PreviousToDoView.swift in Sources */,
