@@ -15,7 +15,11 @@ struct TodayListView: View {
             VStack {
                 List {
                     ForEach(todoItemList) { item in
-                        ToDoListItemView(todoItem: item)
+                        Button(action: {
+                            //item.completed = !item.completed
+                        }, label: {
+                            ToDoListItemView(todoItem: item)
+                        })
                     }
                 }
             }

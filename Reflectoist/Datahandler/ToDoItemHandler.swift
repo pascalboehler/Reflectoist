@@ -7,20 +7,30 @@
 
 import Foundation
 
-class ToDoItemHandler {
-    var jsonString: String = "[{\"todos\": {\"name\": \"Helloe\"}},{\"todos\": {\"name\": \"Testing\"}}]"
+class ToDoItemHandler : ObservableObject {
+    @Published var todoList: [ToDoItem]
+    
+    private var jsonString: String = "[{\"todos\": {\"name\": \"Helloe\"}},{\"todos\": {\"name\": \"Testing\"}}]"
     
     init(jsonString: String = "") {
-        helloWorld()
+        self.todoList = MockDataCreator().todoMockData
+        self.helloWorld()
     }
     
     func helloWorld() {
         print("Hi")
     }
     
-    func readDataToArray() -> [ToDoItem] {
+    func readDataToArray() {
+        // conv stuff: Date.timeIntervalSince1970.formatted()
+        // Currently returns mock data!
         
         
-        return MockDataCreator().todoMockData;
+    }
+    
+    func formatForDatabase() -> String {
+        
+        
+        return "Hi"
     }
 }

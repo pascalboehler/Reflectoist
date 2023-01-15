@@ -12,7 +12,12 @@ struct ToDoListItemView: View {
     
     var body: some View {
         HStack {
-            Image(systemName: "checkmark.circle")
+            if (todoItem.completed) {
+                Image(systemName: "checkmark.circle")
+            } else {
+                Image(systemName: "circle")
+            }
+            
             Text(todoItem.name)
             Spacer()
             Text(todoItem.dateCompleted.formatted())
@@ -24,6 +29,6 @@ struct ToDoListItemView: View {
 
 struct ToDoListItemView_Previews: PreviewProvider {
     static var previews: some View {
-        ToDoListItemView(todoItem: ToDoItem())
+        ToDoListItemView(todoItem: ToDoItem(completed: true))
     }
 }
